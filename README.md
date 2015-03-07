@@ -1,0 +1,2 @@
+# responsive-design-pem
+In only the last few years, Responsive Design patterns and paradigms have brought forth spectacular, sweeping changes in UI web production. The demands for device-compliance as well as the always-growing mobile market have made Responsive Design a necessity for many websites and web applications. While taking the Responsive approach may offer incredible opportunities, it also carries a gamut of challenges.
