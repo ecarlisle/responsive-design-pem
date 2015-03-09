@@ -1,0 +1,108 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <title>Responsive Design: Planning, Execution &amp; Management</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic|Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/global.css">
+    <script type="text/javascript" src="assets/js/jquery.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.js"></script>
+  </head>
+  <body>
+    <header></header>
+    <nav></nav>
+    <main>
+      <div class="container">
+        <div clas="row">
+          <div>
+            <h2>Resets</h2>
+          </div>
+        </div>
+      </div>    
+
+      <!-- Simple Reset - No need for col-xs-* -->
+      <div class="container">
+        <div clas="row">
+          <div>
+            <h3>Simple Reset</h3>
+            <p>(Forget everything we've done with col-xs-*)</p>
+          </div>
+        </div>
+      </div>    
+
+
+      <div class="container wireframe">
+        <div class="row">
+          <div class="col-md-6">col-md-6</div>
+          <div class="col-md-6">col-md-6</div>
+        </div>
+      </div>
+
+      <!-- Reset to Different Sizes -->
+      <!--
+      <div class="row">
+        <div class="col-sm-4 col-md-3 col-lg-1">.col-sm-4<br/>.col-md-3<br/>col-lg-1</div>
+        <div class="col-sm-4 col-md-6 col-lg-10">.col-sm-4<br/>.col-md-6</br>col-lg-10</div>
+        <div class="col-sm-4 col-md-3 col-lg-1">.col-sm-4<br/>.col-md-3<br/>col-lg-1</div>
+      </div>
+        -->
+
+      <!-- Column Resets with Offset Resets -->
+      <!--
+      <div class="row">
+        <div class="col-sm-9 col-sm-offset-3 col-md-6 col-md-offset-6 col-lg-3 col-lg-offset-9">
+          .col-sm-9<br/>
+          .col-sm-offset-3<br/><br/>
+
+          .col-md-6<br/>
+          .col-md-offset-6<br/><br/>
+
+          .col-lg-3<br/>
+          .col-lg-offset-9<br/><br/>
+        </div>
+      </div>
+      -->
+
+      <!-- Column Resets with Responsive Images -->
+      <!--
+      <div class="row">
+        <div class="col-sm-6 col-md-4 col-lg-2">
+          <div>
+            .col-sm-6
+            <br/>
+            .col-md-4
+            <br/>
+            col-lg-2
+          </div>
+           <img class="img-responsive" src="assets/img/sulu.jpg" />
+        </div>
+        <div class="col-sm-6 col-md-8 col-lg-10">
+          <div>
+            .col-sm-6
+            <br/>
+            .col-md-8
+            <br/>
+            col-lg-10 
+          </div>
+          <img class="img-responsive" src="assets/img/sulu.jpg" />
+        </div>
+      </div>        
+        -->
+
+      </div>
+    </main>
+    <footer></footer>
+    <script>
+      $(document).ready(function(){
+        $("header").load("assets/html/header.html");      
+        $("nav").load("assets/html/menu.html");      
+        $("footer").load("assets/html/footer.html");  
+      })
+    </script>
+  </body>
+</html>
