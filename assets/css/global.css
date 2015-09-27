@@ -13,7 +13,7 @@ body {
 
 h1, h2, nav {
   font-weight: bold;
-  font-family: 'Architects Daughter', sans-serif;
+  font-family: 'Exo', sans-serif;
 }
 
 h1 {
@@ -56,14 +56,14 @@ header {
 
 header span {
   color: #8fbae5;
-  font: 2rem 'Architects Daughter', sans-serif;
+  font: 2rem 'Exo', sans-serif;
 }
 
 /* ---------- Nav ---------- */ 
 
 nav {
   color: #FFF;
-  font: 1.5rem 'Architects Daughter', sans-serif;
+  font: 1.5rem 'Exo', sans-serif;
 }
 
 nav ul {
@@ -135,6 +135,9 @@ footer a, footer a:hover, footer a:active {
   margin: 0 0 2rem 0;
 }
 
+.container-fluid {
+  margin: 2rem;
+}
 
 /* ---------- Media Queries ---------- */ 
 
@@ -148,7 +151,7 @@ h1 {
 
 header span {
   color: #8fbae5;
-  font: 3rem 'Architects Daughter', sans-serif;
+  font: 3rem 'Exo', sans-serif;
 }
 
   nav ul {
